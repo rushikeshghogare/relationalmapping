@@ -1,0 +1,167 @@
+2023-01-08 13:57:04.288  INFO 22512 --- [main] c.F.Program1.Program1Application         : Starting Program1Application using Java 11.0.16.1 on Rushi with PID 22512 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 13:57:04.292  INFO 22512 --- [main] c.F.Program1.Program1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 13:57:05.421  INFO 22512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8078 (http)
+2023-01-08 13:57:05.436  INFO 22512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-08 13:57:05.436  INFO 22512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 13:57:05.621  INFO 22512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-08 13:57:05.622  INFO 22512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1267 ms
+2023-01-08 13:57:06.005  INFO 22512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8078 (http) with context path ''
+2023-01-08 13:57:06.025  INFO 22512 --- [main] c.F.Program1.Program1Application         : Started Program1Application in 2.24 seconds (JVM running for 2.86)
+2023-01-08 13:57:24.054  INFO 2912 --- [main] c.F.Program1.Program1Application         : Starting Program1Application using Java 11.0.16.1 on Rushi with PID 2912 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 13:57:24.057  INFO 2912 --- [main] c.F.Program1.Program1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 13:57:25.283  INFO 2912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8078 (http)
+2023-01-08 13:57:25.297  INFO 2912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-08 13:57:25.297  INFO 2912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 13:57:25.518  INFO 2912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-08 13:57:25.519  INFO 2912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1404 ms
+2023-01-08 13:57:25.851  WARN 2912 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8078 is already in use
+2023-01-08 13:57:25.857  INFO 2912 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-08 13:57:25.875  INFO 2912 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-08 13:57:25.900 ERROR 2912 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8078 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8078 or configure this application to listen on another port.
+
+2023-01-08 14:10:02.671  INFO 24232 --- [main] c.F.Program1.Program1Application         : Starting Program1Application using Java 11.0.16.1 on Rushi with PID 24232 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 14:10:02.674  INFO 24232 --- [main] c.F.Program1.Program1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 14:10:04.160  INFO 24232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8078 (http)
+2023-01-08 14:10:04.181  INFO 24232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-08 14:10:04.181  INFO 24232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 14:10:04.503  INFO 24232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-08 14:10:04.504  INFO 24232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1744 ms
+2023-01-08 14:10:04.954  WARN 24232 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8078 is already in use
+2023-01-08 14:10:04.961  INFO 24232 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-08 14:10:04.979  INFO 24232 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-08 14:10:05.021 ERROR 24232 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8078 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8078 or configure this application to listen on another port.
+
+2023-01-08 14:11:01.753  INFO 28992 --- [main] c.F.Program1.Program1Application         : Starting Program1Application using Java 11.0.16.1 on Rushi with PID 28992 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 14:11:01.757  INFO 28992 --- [main] c.F.Program1.Program1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 14:11:02.715  INFO 28992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8078 (http)
+2023-01-08 14:11:02.725  INFO 28992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-08 14:11:02.726  INFO 28992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 14:11:03.037  INFO 28992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-08 14:11:03.038  INFO 28992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1203 ms
+2023-01-08 14:11:03.561  WARN 28992 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8078 is already in use
+2023-01-08 14:11:03.565  INFO 28992 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-08 14:11:03.584  INFO 28992 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-08 14:11:03.604 ERROR 28992 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8078 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8078 or configure this application to listen on another port.
+
+2023-01-08 14:12:30.350  INFO 24000 --- [main] c.F.Program1.Program1Application         : Starting Program1Application using Java 11.0.16.1 on Rushi with PID 24000 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 14:12:30.352  INFO 24000 --- [main] c.F.Program1.Program1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 14:12:31.378  INFO 24000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8078 (http)
+2023-01-08 14:12:31.387  INFO 24000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-08 14:12:31.388  INFO 24000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 14:12:31.627  INFO 24000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-08 14:12:31.627  INFO 24000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1221 ms
+2023-01-08 14:12:31.982  WARN 24000 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8078 is already in use
+2023-01-08 14:12:31.986  INFO 24000 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-08 14:12:31.999  INFO 24000 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-08 14:12:32.016 ERROR 24000 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8078 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8078 or configure this application to listen on another port.
+
+2023-01-08 14:16:12.622  INFO 19908 --- [main] c.F.Program1.Program1Application         : Starting Program1Application using Java 11.0.16.1 on Rushi with PID 19908 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 14:16:12.629  INFO 19908 --- [main] c.F.Program1.Program1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 14:16:13.674  INFO 19908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8075 (http)
+2023-01-08 14:16:13.688  INFO 19908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-08 14:16:13.688  INFO 19908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 14:16:13.890  INFO 19908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-08 14:16:13.890  INFO 19908 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1187 ms
+2023-01-08 14:16:14.238  INFO 19908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8075 (http) with context path ''
+2023-01-08 14:16:14.248  INFO 19908 --- [main] c.F.Program1.Program1Application         : Started Program1Application in 2.127 seconds (JVM running for 2.777)
+2023-01-08 14:17:22.401  INFO 8468 --- [main] c.F.Program1.Program1Application         : Starting Program1Application using Java 11.0.16.1 on Rushi with PID 8468 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 14:17:22.404  INFO 8468 --- [main] c.F.Program1.Program1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 14:17:23.340  INFO 8468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8074 (http)
+2023-01-08 14:17:23.351  INFO 8468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-08 14:17:23.351  INFO 8468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 14:17:23.589  INFO 8468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-08 14:17:23.589  INFO 8468 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1115 ms
+2023-01-08 14:17:24.232  INFO 8468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8074 (http) with context path ''
+2023-01-08 14:17:24.244  INFO 8468 --- [main] c.F.Program1.Program1Application         : Started Program1Application in 2.236 seconds (JVM running for 2.688)
+2023-01-08 14:18:50.820  INFO 24204 --- [main] c.F.Program1.Program1Application         : Starting Program1Application using Java 11.0.16.1 on Rushi with PID 24204 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 14:18:50.826  INFO 24204 --- [main] c.F.Program1.Program1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 14:18:51.820  INFO 24204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8071 (http)
+2023-01-08 14:18:51.832  INFO 24204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-08 14:18:51.832  INFO 24204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 14:18:52.090  INFO 24204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-08 14:18:52.091  INFO 24204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1189 ms
+2023-01-08 14:18:52.447  INFO 24204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8071 (http) with context path ''
+2023-01-08 14:18:52.457  INFO 24204 --- [main] c.F.Program1.Program1Application         : Started Program1Application in 2.139 seconds (JVM running for 2.684)
+2023-01-08 14:20:24.341  INFO 18172 --- [main] c.F.Program1.Program1Application         : Starting Program1Application using Java 11.0.16.1 on Rushi with PID 18172 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 14:20:24.345  INFO 18172 --- [main] c.F.Program1.Program1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 14:20:25.339  INFO 18172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2023-01-08 14:20:25.349  INFO 18172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-08 14:20:25.349  INFO 18172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 14:20:25.537  INFO 18172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-08 14:20:25.537  INFO 18172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1141 ms
+2023-01-08 14:20:25.850  INFO 18172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2023-01-08 14:20:25.860  INFO 18172 --- [main] c.F.Program1.Program1Application         : Started Program1Application in 1.921 seconds (JVM running for 2.484)
+2023-01-08 14:21:14.274  INFO 22128 --- [main] c.F.Program1.Program1Application         : Starting Program1Application using Java 11.0.16.1 on Rushi with PID 22128 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 14:21:14.278  INFO 22128 --- [main] c.F.Program1.Program1Application         : No active profile set, falling back to 1 default profile: "default"
+2023-01-08 14:21:15.244  INFO 22128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8061 (http)
+2023-01-08 14:21:15.258  INFO 22128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-08 14:21:15.258  INFO 22128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 14:21:15.492  INFO 22128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-08 14:21:15.493  INFO 22128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1149 ms
+2023-01-08 14:21:15.855  INFO 22128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8061 (http) with context path ''
+2023-01-08 14:21:15.863  INFO 22128 --- [main] c.F.Program1.Program1Application         : Started Program1Application in 2.072 seconds (JVM running for 2.701)
+2023-01-08 14:31:46,066 INFO  StartupInfoLogger:55 - [] Starting Program1Application using Java 11.0.16.1 on Rushi with PID 7244 (D:\download\spring program\Program1\target\classes started by ghoge in D:\download\spring program\Program1)
+2023-01-08 14:31:46,070 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-01-08 14:31:47,709 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8062 (http)
+2023-01-08 14:31:47,726 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2023-01-08 14:31:47,726 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-08 14:31:48,090 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2023-01-08 14:31:48,091 INFO  ServletWebServerApplicationContext:292 - [] Root WebApplicationContext: initialization completed in 1951 ms
+2023-01-08 14:31:48,570 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8062 (http) with context path ''
+2023-01-08 14:31:48,584 INFO  StartupInfoLogger:61 - [] Started Program1Application in 3.049 seconds (JVM running for 3.729)
